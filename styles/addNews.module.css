@@ -1,0 +1,20 @@
+.editor > * > *{
+    padding: 0px 5px;
+}
+.editorWarpperClass{
+border: 1px solid rgb(199, 192, 192);
+border-radius: 5px;
+}
+.editor {
+min-height: 300px;
+direction: rtl;
+text-align: right;
+overflow-y: auto;
+}
+.editorToolbar *{
+direction: ltr;
+padding: 0px;
+}
+.form label{
+font-weight: bold;
+}

@@ -1,0 +1,26 @@
+.table {
+  direction: ltr;
+  height: 10px;
+  overflow-y: scroll;
+}
+.table * {
+  direction: ltr;
+}
+.editor {
+  min-height: 300px;
+}
+.editorToolbar,
+.editorToolbar * {
+  direction: ltr;
+}
+.section *{
+    direction: ltr;
+}
+.section label {
+  font-weight: bold;
+}
+.tableAdjust{
+    max-height: 300px;
+    overflow-y: auto;
+    margin: 10px 20px;
+}

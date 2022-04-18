@@ -1,0 +1,13 @@
+.nav {
+  background: rgb(33, 15, 125);
+  background: linear-gradient(
+    137deg,
+    rgba(33, 15, 125, 1) 0%,
+    rgba(90, 84, 241, 1) 44%,
+    rgba(245, 242, 218, 1) 74%
+  );
+}
+.dropdownLink:hover{
+    font-size: large;
+    font-weight: bold;
+}

@@ -1,0 +1,13 @@
+a {
+  color: black;
+}
+a:hover {
+  color: purple;
+  text-decoration: none;
+}
+* {
+  direction: rtl;
+}
+.btn:focus {
+  box-shadow: none !important;
+}

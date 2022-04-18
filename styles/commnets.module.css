@@ -1,0 +1,28 @@
+.commnetsDiv *:not(:last-child){
+  direction: ltr;
+}
+.description{
+white-space: nowrap;
+overflow-x: hidden;
+max-width: 25vw;
+max-height: 100px;
+}
+.description:hover{
+  white-space: normal;
+  max-height: 100vh;
+  transition: 10s;
+}
+.buttonsSection button{
+  margin: 2px 2px;
+  text-align: center;
+}
+.readByAdminStatus ,.publishStatus{
+  text-align: center;
+  width: fit-content;  
+}
+@media screen and (max-width: 480px) {
+  .commentsTable{
+    table-layout: fixed;
+    word-wrap: break-word;
+  }    
+}

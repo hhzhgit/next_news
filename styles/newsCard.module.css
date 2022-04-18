@@ -1,0 +1,35 @@
+.newsCard{
+  min-height: 70vh;
+}
+.row:hover {
+  background: rgb(251, 252, 184);
+  background: linear-gradient(
+    27deg,
+    rgba(251, 252, 184, 1) 0%,
+    rgba(250, 239, 18, 1) 69%,
+    rgba(255, 226, 0, 1) 100%
+  );
+  font-size: x-large;
+  transition: 1s;
+  display: flex;
+  align-items: center;
+}
+.row p,.row pre{
+    display: none;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.row:hover p,.row:hover pre{
+    display: initial;
+    margin: 0px;
+    max-height: 100px;
+    overflow: hidden;
+}
+.row:hover img{
+  display: none;
+}
+.btnRoundedBottom{
+  border-radius: 0px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}

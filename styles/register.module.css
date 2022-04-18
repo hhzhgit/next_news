@@ -1,0 +1,23 @@
+.regitserPage{
+    height: 100vh;
+    position: relative;
+}
+.registerForm{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    padding: 0px 20px;
+}
+.registerForm input{
+    direction: ltr;
+}
+.registerForm label{
+    text-transform: capitalize;
+    padding: 0;
+    margin: 0;
+}

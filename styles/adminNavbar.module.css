@@ -1,0 +1,27 @@
+.adminNavbar {
+  direction: ltr;
+  background: rgb(252, 237, 5);
+  background: linear-gradient(
+    90deg,
+    rgba(252, 237, 5, 1) 0%,
+    rgba(253, 163, 29, 1) 50%,
+    rgba(252, 69, 69, 1) 100%
+  );
+}
+.adminNavbar a {
+  font-weight: bold;
+}
+.comments {
+  display: flex;
+}
+.comments div {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 10px;
+  /* background-color: aqua; */
+  width: fit-content;
+}
+.faIcon {
+  font-size: 25px;
+}
